@@ -79,3 +79,7 @@ names(tidy.data) <- tolower(names(tidy.data))
 tidy.mean.temp <- melt(tidy.data, id.vars=c("subject", "activity"))
 tidy.mean <- dcast(tidy.mean.temp, subject + activity ~ variable, fun.aggregate = mean)
 
+write.table(tidy.mean, "./tidymean.txt", sep="\t")
+
+write.table(tidy.data, "./tidydata.txt", sep="\t")
+
