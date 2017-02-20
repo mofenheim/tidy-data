@@ -17,3 +17,6 @@ The R script called run_analysis.R does the following:
 The following libraries are used:
 - plyr
 - reshape2
+
+Script to execute:
+- run_analysis.R
