@@ -15,5 +15,5 @@ The R script called run_analysis.R does the following:
 
 #Notes
 The following libraries are used:
-- library(plyr)
-- library(reshape2)
+- plyr
+- reshape2
