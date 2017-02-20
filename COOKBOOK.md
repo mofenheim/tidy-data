@@ -1,8 +1,7 @@
 #Code Book
 
-Tidy
-
-Column		Original Name	<br />
+##Dataset tidy.data
+##Below is a listing of the column and the original name in the dataset	<br />
 subject	 : 	subject	<br />
 activity	 : 	activity	<br />
 timebodyaccmeanx	 : 	tBodyAcc-mean()-X	<br />
