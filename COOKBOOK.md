@@ -3,7 +3,7 @@
 Tidy
 
 A data.table named tidy is set with the following columns.  <br />
-|	Column	|	Original Name	<br />
+#|	Column	|	Original Name	<br />
 |	subject	|	subject	<br />
 |	activity	|	activity	<br />
 |	timebodyaccmeanx	|	tBodyAcc-mean()-X	<br />
