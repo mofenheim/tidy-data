@@ -96,11 +96,12 @@ anglezgravitymean	 : 	angle(Z,gravityMean)	<br />
 ###Below is a listing of the column followed by data type	<br />
 subject : int <br />
 activity : factor <br />
-varirable : <br />
-value: <br />
+variable : factor <br />
+value: num <br />
 
 ##Dataset tidy.mean
-This is the 2nd dataset called for in the project description. This has the same exact column names as tidy.data
+This is the 2nd dataset called for in the project description. This has the same exact column names as tidy.data.
+All the variables in both datasets are of type num, except for subject (type int) and activity (converted to type factor) 
 
 		
 
