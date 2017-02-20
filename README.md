@@ -4,10 +4,16 @@
 #Overview
 The R script called run_analysis.R does the following:
 
-- Downloads and extracts the UCI Hari Datasets.
-Merges the training and the test sets to create one data set.
+- Downloads and unzips the UCI Hari Datasets.
+- Read in the activities file (used for labels) and the datasets
+- Merges the data files into two data sets (training and test).
+- Merges training and test into one data set.
+- Extract only the columns that have mean or standard deviation (std) in the name.
+- Appropriately label the activities in the activity column.
+- Make the column names more meaningful and tidy.
+- Create a second dataset that generates a mean for each variable for subject and activity combination.
 
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive activity names.
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+#Overview
+  The following libraries are used:
+   -library(plyr)
+   -library(reshape2)
