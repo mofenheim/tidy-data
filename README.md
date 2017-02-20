@@ -13,7 +13,7 @@ The R script called run_analysis.R does the following:
 - Make the column names more meaningful and tidy.
 - Create a second dataset that generates a mean for each variable for subject and activity combination.
 
-#Overview
-  The following libraries are used:
-   -library(plyr)
-   -library(reshape2)
+#Notes
+The following libraries are used:
+- library(plyr)
+- library(reshape2)
