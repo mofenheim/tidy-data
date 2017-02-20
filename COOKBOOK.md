@@ -1,0 +1,96 @@
+#Code Book
+
+Tidy
+
+A data.table named tidy is set with the following columns. 
+
+Column	|	Original Name
+subject	|	subject
+activity	|	activity
+timebodyaccmeanx	|	tBodyAcc-mean()-X
+timebodyaccmeanz	|	tBodyAcc-mean()-Z
+timebodyaccstdy	|	tBodyAcc-std()-Y
+timegravityaccmeanx	|	tGravityAcc-mean()-X
+timegravityaccmeanz	|	tGravityAcc-mean()-Z
+timegravityaccstdy	|	tGravityAcc-std()-Y
+timebodyaccjerkmeanx	|	tBodyAccJerk-mean()-X
+timebodyaccjerkmeanz	|	tBodyAccJerk-mean()-Z
+timebodyaccjerkstdy	|	tBodyAccJerk-std()-Y
+timebodygyromeanx	|	tBodyGyro-mean()-X
+timebodygyromeanz	|	tBodyGyro-mean()-Z
+timebodygyrostdy	|	tBodyGyro-std()-Y
+timebodygyrojerkmeanx	|	tBodyGyroJerk-mean()-X
+timebodygyrojerkmeanz	|	tBodyGyroJerk-mean()-Z
+timebodygyrojerkstdy	|	tBodyGyroJerk-std()-Y
+timebodyaccmagmean	|	tBodyAccMag-mean()
+timegravityaccmagmean	|	tGravityAccMag-mean()
+timebodyaccjerkmagmean	|	tBodyAccJerkMag-mean()
+timebodygyromagmean	|	tBodyGyroMag-mean()
+timebodygyrojerkmagmean	|	tBodyGyroJerkMag-mean()
+fftbodyaccmeanx	|	fBodyAcc-mean()-X
+fftbodyaccmeanz	|	fBodyAcc-mean()-Z
+fftbodyaccstdy	|	fBodyAcc-std()-Y
+fftbodyaccmeanfreqx	|	fBodyAcc-meanFreq()-X
+fftbodyaccmeanfreqz	|	fBodyAcc-meanFreq()-Z
+fftbodyaccjerkmeany	|	fBodyAccJerk-mean()-Y
+fftbodyaccjerkstdx	|	fBodyAccJerk-std()-X
+fftbodyaccjerkstdz	|	fBodyAccJerk-std()-Z
+fftbodyaccjerkmeanfreqy	|	fBodyAccJerk-meanFreq()-Y
+fftbodygyromeanx	|	fBodyGyro-mean()-X
+fftbodygyromeanz	|	fBodyGyro-mean()-Z
+fftbodygyrostdy	|	fBodyGyro-std()-Y
+fftbodygyromeanfreqx	|	fBodyGyro-meanFreq()-X
+fftbodygyromeanfreqz	|	fBodyGyro-meanFreq()-Z
+fftbodyaccmagstd	|	fBodyAccMag-std()
+fftbodybodyaccjerkmagmean	|	fBodyBodyAccJerkMag-mean()
+fftbodybodyaccjerkmagmeanfreq	|	fBodyBodyAccJerkMag-meanFreq()
+fftbodybodygyromagstd	|	fBodyBodyGyroMag-std()
+fftbodybodygyrojerkmagmean	|	fBodyBodyGyroJerkMag-mean()
+fftbodybodygyrojerkmagmeanfreq	|	fBodyBodyGyroJerkMag-meanFreq()
+angletbodyaccjerkmeangravitymean	|	angle(tBodyAccJerkMean),gravityMean)
+angletbodygyrojerkmeangravitymean	|	angle(tBodyGyroJerkMean,gravityMean)
+angleygravitymean	|	angle(Y,gravityMean)
+timebodyaccmeany	|	tBodyAcc-mean()-Y
+timebodyaccstdx	|	tBodyAcc-std()-X
+timebodyaccstdz	|	tBodyAcc-std()-Z
+timegravityaccmeany	|	tGravityAcc-mean()-Y
+timegravityaccstdx	|	tGravityAcc-std()-X
+timegravityaccstdz	|	tGravityAcc-std()-Z
+timebodyaccjerkmeany	|	tBodyAccJerk-mean()-Y
+timebodyaccjerkstdx	|	tBodyAccJerk-std()-X
+timebodyaccjerkstdz	|	tBodyAccJerk-std()-Z
+timebodygyromeany	|	tBodyGyro-mean()-Y
+timebodygyrostdx	|	tBodyGyro-std()-X
+timebodygyrostdz	|	tBodyGyro-std()-Z
+timebodygyrojerkmeany	|	tBodyGyroJerk-mean()-Y
+timebodygyrojerkstdx	|	tBodyGyroJerk-std()-X
+timebodygyrojerkstdz	|	tBodyGyroJerk-std()-Z
+timebodyaccmagstd	|	tBodyAccMag-std()
+timegravityaccmagstd	|	tGravityAccMag-std()
+timebodyaccjerkmagstd	|	tBodyAccJerkMag-std()
+timebodygyromagstd	|	tBodyGyroMag-std()
+timebodygyrojerkmagstd	|	tBodyGyroJerkMag-std()
+fftbodyaccmeany	|	fBodyAcc-mean()-Y
+fftbodyaccstdx	|	fBodyAcc-std()-X
+fftbodyaccstdz	|	fBodyAcc-std()-Z
+fftbodyaccmeanfreqy	|	fBodyAcc-meanFreq()-Y
+fftbodyaccjerkmeanx	|	fBodyAccJerk-mean()-X
+fftbodyaccjerkmeanz	|	fBodyAccJerk-mean()-Z
+fftbodyaccjerkstdy	|	fBodyAccJerk-std()-Y
+fftbodyaccjerkmeanfreqx	|	fBodyAccJerk-meanFreq()-X
+fftbodyaccjerkmeanfreqz	|	fBodyAccJerk-meanFreq()-Z
+fftbodygyromeany	|	fBodyGyro-mean()-Y
+fftbodygyrostdx	|	fBodyGyro-std()-X
+fftbodygyrostdz	|	fBodyGyro-std()-Z
+fftbodygyromeanfreqy	|	fBodyGyro-meanFreq()-Y
+fftbodyaccmagmean	|	fBodyAccMag-mean()
+fftbodyaccmagmeanfreq	|	fBodyAccMag-meanFreq()
+fftbodybodyaccjerkmagstd	|	fBodyBodyAccJerkMag-std()
+fftbodybodygyromagmean	|	fBodyBodyGyroMag-mean()
+fftbodybodygyromagmeanfreq	|	fBodyBodyGyroMag-meanFreq()
+fftbodybodygyrojerkmagstd	|	fBodyBodyGyroJerkMag-std()
+angletbodyaccmeangravity	|	angle(tBodyAccMean,gravity)
+angletbodygyromeangravitymean	|	angle(tBodyGyroMean,gravityMean)
+anglexgravitymean	|	angle(X,gravityMean)
+anglezgravitymean	|	angle(Z,gravityMean)
+		
