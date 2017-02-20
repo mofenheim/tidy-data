@@ -1,7 +1,7 @@
 #Code Book
 
 ##Dataset tidy.data
-###Below is a listing of the column and the original name in the dataset	<br />
+###Below is a listing of the column followed by the original name in the dataset	<br />
 subject	 : 	subject	<br />
 activity	 : 	activity	<br />
 timebodyaccmeanx	 : 	tBodyAcc-mean()-X	<br />
@@ -90,6 +90,17 @@ angletbodyaccmeangravity	 : 	angle(tBodyAccMean,gravity)	<br />
 angletbodygyromeangravitymean	 : 	angle(tBodyGyroMean,gravityMean)	<br />
 anglexgravitymean	 : 	angle(X,gravityMean)	<br />
 anglezgravitymean	 : 	angle(Z,gravityMean)	<br />
+
+
+##Dataset tidy.mean.temp
+###Below is a listing of the column followed by data type	<br />
+subject : int <br />
+activity : factor <br />
+varirable : <br />
+value: <br />
+
+##Dataset tidy.mean
+This is the 2nd dataset called for in the project description. This has the same exact column names as tidy.data
 
 		
 
